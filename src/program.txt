@@ -1,0 +1,10 @@
+define Sum[a, b]{
+  return a + b
+}
+
+define Adriana{
+  var a = 1 
+  var b = 9
+  var sum = call Sum[a, b]
+  return sum
+}
